@@ -1,0 +1,41 @@
+Knapsack Problem
+Jeff Parvin
+jpp30@pitt.edu
+2 March 2012
+
+
+INTRODUCTION
+
+The RSA (Rivest, Shamir, Adleman) cryptosystem is based on arithmetic operations on very large integers. This project implements the central encryption/decryption algorithm.
+
+In the file RSA.java is implemented the method:
+
+    public static String crypto(String message, String exponent, String modulus)
+
+Its arguments are very large binary integers expressed as strings. It will return message raised to the exponent power modulo modulus. RSA.java also implements all of the arithmetic operations necessary to make this work. The code runs in cubic time and works well with the included test file, as is shown by the instrumentation and tests run in the test file, TestRSA.java.
+
+
+FILES
+
+The following files should be present:
+
+     	RSA.java - RSA class
+	TestRSA.java - Test file for RSA
+
+
+USAGE
+
+Compile in Java 2 SDK 1.6 with:
+
+     javac TestRSA.java
+
+Run with:
+
+     java TestRSA
+
+
+KNOWN PROBLEMS
+
+None.
+
+
